@@ -3,6 +3,12 @@
     padding: 0;
   }
 
+  a[href^="tel"] {
+    color: inherit;
+    text-decoration: none;
+    font-family: inherit;
+  }
+
   @font-face {
     font-family: 'Proxima Nova Light';
     src: url('../fonts/ProximaNova-Light.eot');
@@ -508,7 +514,7 @@ header {
     .content__description {
         left: 52px;
     }
-    
+
 }
 
 @media (max-width:1170px) {
