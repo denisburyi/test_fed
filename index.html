@@ -4,14 +4,19 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Test FED</title>
+  <meta name="author" content="Denis Buryi">
   <link rel="stylesheet" href="css/style.css" >
-  <link rel="stylesheet" href="css/style.css" >
-  <title>Document</title>
 </head>
 <body>
   <div class="wrapper">
     <div class="top">
       <header class="header">
+        <div class="header__wrapper">
+          <div class="header__burger">
+            <span></span>
+        </div>
+      </div>
         <div class="container">
           <div class="header__row">
             <div class="header__logo">
@@ -29,9 +34,6 @@
         <div class="container">
           <div class="menu__row">
             <nav class="menu__body">
-              <div class="menu__burger">
-                <span></span>
-              </div>
               <ul class="menu__list">
                 <li><a href="" class="menu__link active">главная</a></li>
                 <li><a href="" class="menu__link">для детской</a></li>
@@ -48,32 +50,56 @@
       <div class="par"></div>
       <div class="slider__container">
         <div class="container">
-          <div class="slider__content">
+          <div class="slider__content fade">
             <div class="content__header">
               <div class="content__title">
                 <p>фотообои</p>
               </div>
-              <div class="content__subtitle"></div>
-              <div class="content__price">от 50 $/м2</div>
             </div>
-            <div class="content__description">Более 6000 идей фотообоев
-              для ГОСТИНОЙ</div>
               <div class="content_btn"><button>Смотреть идеи</button></div>
           </div>
         </div>
-        <div class="slider__item fade">
-          <img src="img/slider/slide_1.webp" alt="">
+        <div class="slider__item">
+          <img class="slider__img" src="img/slider/slide_1.webp" alt="">
           <div class="container">
-            <div class="slider__item__subtitle">Для зала</div>
+            <div class="content__subtitle">
+              <div class="slider__item__subtitle">
+                <div class="text"><span>Для спальни</span></div>
+                <div class="price"><span>от</span> <span class="price_total">50</span> <span class="price_item">$/м2</span></div>
+              </div>
+            </div>
+            <div class="content__description">
+              Более 6000 идей фотообоев<br />для спальни
+            </div>
           </div>
         </div>
-        <div class="slider__item fade">
-          <img src="img/slider/slide_2.webp" alt="">
-          <div class="container">Text</div>
+        <div class="slider__item">
+          <img class="slider__img" src="img/slider/slide_2.webp" alt="">
+          <div class="container">
+            <div class="content__subtitle">
+              <div class="slider__item__subtitle">
+                <div class="text"><span>Для кухни</span></div>
+                <div class="price"><span>от</span> <span class="price_total">60</span> <span class="price_item">$/м2</span></div>
+              </div>
+            </div>
+            <div class="content__description">
+              Более 6000 идей фотообоев<br />для кухни
+            </div>
+          </div>
         </div>
-        <div class="slider__item fade">
-          <img src="img/slider/slide_3.webp" alt="">
-          <div class="container">Text</div>
+        <div class="slider__item">
+          <img class="slider__img" src="img/slider/slide_3.webp" alt="">
+          <div class="container">
+            <div class="content__subtitle">
+              <div class="slider__item__subtitle">
+                <div class="text living"><span>Для гостиной</span></div>
+                <div class="price"><span>от</span> <span class="price_total">100</span> <span class="price_item">$/м2</span></div>
+              </div>
+            </div>
+            <div class="content__description">
+              Более 6000 идей фотообоев<br />для гостинной
+            </div>
+          </div>
         </div>
         <div class="slider__navigation">
           <div class="container">
@@ -149,6 +175,6 @@
   </div>
 
   <script src="https://code.jquery.com/jquery-3.5.0.slim.min.js" integrity="sha256-MlusDLJIP1GRgLrOflUQtshyP0TwT/RHXsI1wWGnQhs=" crossorigin="anonymous"></script>
-  <script src="/js/script.js"></script>
+  <script src="js/script.js"></script>
 </body>
 </html>
